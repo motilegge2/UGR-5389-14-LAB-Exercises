@@ -27,4 +27,15 @@ void main() {
     default:
       print('Invalid number. Please enter a number between 1 and 7.');
   }
+  // Exercise 2
+  int num1 = 1;
+  int num2 = 2;
+  int sum;
+
+  for (int i = 0; i < 10; i++) {
+    print('$num1');
+    sum = num1 + num2;
+    num1 = num2;
+    num2 = sum;
+  }
 }
