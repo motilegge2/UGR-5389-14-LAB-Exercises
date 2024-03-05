@@ -8,4 +8,8 @@ void main() async {
   print('Fetching data...');
   String data = await fetchData();
   print(data);
+  //exercise 2
+  fetchData().then((data) {
+    print('Data fetched using then: $data');
+  });
 }
